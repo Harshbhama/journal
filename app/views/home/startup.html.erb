@@ -19,7 +19,7 @@
 			</div>
 
 			<div class= "strt-btn">
-				<button type = "button" class = "btn btn-primary"><%= link_to 'Get Started', posts_path %> </button>
+				<%=button_to 'Get Started', posts_path, {:method => :get, :class => "btn btn-default"}%>
 			</div>
 
 		</div>

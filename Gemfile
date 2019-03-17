@@ -13,6 +13,8 @@ gem 'jquery-rails'
 
 gem 'devise'
 
+gem 'autoprefixer-rails', '~> 7.1.6'
+
 gem 'sqlite3', '~> 1.3.0'
 
 gem 'rails', '~> 5.1.6', '>= 5.1.6.1'
