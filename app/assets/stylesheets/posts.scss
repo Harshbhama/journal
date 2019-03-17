@@ -4,3 +4,25 @@
 
 
 @import "bootstrap";
+
+
+#index-head{
+	height: 60vh;
+	background: url("https://images.unsplash.com/photo-1537072087284-b53024c3f332?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.index-jmb{
+background: none !important;
+text-align: center;
+font-family: 'Pacifico', cursive;
+color: white;
+
+}
+.head-index-style{
+	font-size: 3em;
+	text-shadow: 4px 4px 26px rgba(146, 150, 150, 0.77);
+}

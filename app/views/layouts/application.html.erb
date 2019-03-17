@@ -7,6 +7,7 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
   </head>
 
   <body>
@@ -25,7 +26,7 @@
       <% if user_signed_in? %>
 
         <li>
-          <div class = 'sign-out-style'><%= link_to 'Sign-out', destroy_user_session_path %></div>
+          <div class = 'sign-out-style'><%= link_to 'Sign-out', destroy_user_session_path,method: :delete %></div>
         </li>
       <% else %>
 

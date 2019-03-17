@@ -17,12 +17,17 @@
 					</div>
 				</div>
 			</div>
-
 			<div class= "strt-btn">
-				<%=button_to 'Get Started', posts_path, {:method => :get, :class => "btn btn-default"}%>
-			</div>
+				<% if user_signed_in? %>
+					
+						<%=button_to 'Get Started', posts_path, {:method => :get, :class => "btn btn-default"}%>
+					</div>
+				<% else %>
+					<%=button_to 'Get Started', new_user_registration_path, {:method => :get, :class => "btn btn-default"}%>
+				<% end %>
 
-		</div>
+
+			</div>
 
 	</body>
 
